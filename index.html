@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 5px;
+            flex-grow: 1;
+            opacity: 0.6;
+            transition: opacity 1s width 2s;
+        }
+        img:hover{
+            opacity:1;
+            width: 450px;
+        }
+        .flexcontainer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        h1{
+            border: 2px solid rgb(238, 238, 52);
+            background-color: rgb(189, 141, 234);
+            text-align: center;
+            color: brown;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="flexcontainer">
+        <img src="img1.jpg" alt="" class="src">
+        <img src="img2.jpg" alt="" class="src">
+        <img src="img3.jpg" alt="" class="src">
+        <img src="img4.jpg" alt="" class="src">
+        <img src="img5.jpg" alt="" class="src">
+        <img src="img6.jpg" alt="" class="src">
+    </div>
+</body>
+</html>
+<!--flex
+direction
+flex direction
+flex grow
+flex wrap-->
